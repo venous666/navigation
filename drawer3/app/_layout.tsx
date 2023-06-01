@@ -22,7 +22,15 @@ export default function AppLayout() {
       name="telaC" // This is the name of the page and must match the url from root
       options={{
         drawerLabel: "telaC",
+        drawerItemStyle: { height: 0 },
         title: "Bem-vindo telaC",
+      }}
+    />
+     <Drawer.Screen
+      name="telaA" // This is the name of the page and must match the url from root
+      options={{
+        drawerLabel: "telaA",
+        title: "Bem-vindo telaA",
       }}
     />
   </Drawer>
