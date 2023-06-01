@@ -11,7 +11,9 @@ export default function App() {
       <TextInput style={styles.input}placeholder="E-mail"></TextInput>
       <TextInput style={styles.input}placeholder="criar senha"></TextInput>
       <TextInput style={styles.input}placeholder="confirmar senha"></TextInput>
+
       <Link href="/telaA"style={styles.link} >ir para a tela de login </Link>
+
       <StatusBar style="auto" />
     </View>
   );
